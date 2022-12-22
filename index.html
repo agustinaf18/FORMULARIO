@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/a890f61ed7.js" crossorigin="anonymous"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+  
+    <!-- CARD -->
+    <div class="card text-center m-5 p-1 w-50">
+      <div>
+        <div class="card-header fw-bolder  " style=" font-size: x-large;  text-align: left;" >
+          Payment form example
+        </div>
+        
+      </div>
+      
+<div class="m-3 p">
+      <div class="card-body">
+
+        <!-- HEADER DE ADENTRO  -->
+ <div class=" card text-bg-danger mb-3 card-header bg-danger p-3 text-dark bg-opacity-25 p-3 " style="max-width: 100rem; ">
+      <div class= "text-danger " style="text-align: left;font-weight: bold;">Some fields are missing</div> 
+       
+   </div>
+  
+  </div>
+
+        <form class="row g-3">
+          <div class="col-md-6 "  style=" text-align: left;">
+            <label for="inputCity" class="form-label">Card #</label>
+            <input type="text" class="form-control" id="inputCity" placeholder="XXXXXXXXXXXXXXXXXX">
+          </div>
+
+          <div class="col-md-3 "  style="text-align: justify;">
+            <label for="inputCity" class="form-label">CVC #</label>
+          
+            <input  type="text" class="form-control" id="inputCity" placeholder="0000"> 
+          </div>
+          
+
+          <div class="col-md-3  " style="text-align: justify;">
+            <label for="inputZip" class="form-label">Amount</label>
+            <p class=" pt-5 mt-0 position-absolute top-10 start-60 end--10 translate-middle p-2 ">$</p>
+            <input type="text" class="form-control" id="inputZip" placeholder=" Amount" >
+            
+          </div>
+
+
+          <div class="col-md-7" style="text-align: left;">
+            <label for="inputEmail4" class="form-label">First name</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+
+          <div class="col-md-5" style="text-align: justify;">
+            <label for="inputPassword4" class="form-label">Last name</label>
+            <input type="password" class="form-control" id="inputPassword4">
+          </div>
+
+          <div class="col-md-6" style="text-align: left;">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+ 
+          <div class="col-md-3" style="text-align:justify">
+            <label for="inputState" class="form-label">State</label>
+            <select id="inputState" class="form-select">
+              <option selected>Pick a state</option>
+              <option>...</option>
+            </select>
+          </div>
+
+          <div class="col-md-3" style="text-align: justify;">
+            <label for="inputPassword4" class="form-label">Postal Code</label>
+            <input type="password" class="form-control" id="inputPassword4">
+          </div>
+  
+          <div class="col-md-4" style="text-align: left;">
+            <label for="inputCity" class="form-label">We accept</label>
+            
+            <div class="position-relative"><div class="card p-4 col-md-15 bg-secondary"  class="form-control"  id=""> 
+
+                
+                <div class=" position-relative mx-1 p-1 ">
+                 
+                  <div class=" position-absolute top-50 start-0 translate-middle-y "><div class="position-absolute top-50 start-0 translate-middle-y " >
+                    <input class=" position-absolute bottom-0 start-2 translate-middle-y mx-0 " type="radio">
+                    
+                    <i class="  badge text-bg-secondary  p-2 mx-2  fa-brands fa-cc-mastercard "> </i>
+                    </div></div>
+
+                 <div class="position-absolute top-50 start-50 translate-middle"><input class=" position-absolute bottom-0 start-1 translate-middle-y mx-0" type="radio"><i class=" text-bg-secondary p-0 mx-3 fa-brands fa-cc-visa"></i></div>
+
+                 <div class="position-absolute top-50 end-0 translate-middle-y"><input class=" position-absolute bottom-0 start-1 translate-middle-y mx-0" type="radio"><i class=" text-bg-secondary p-0 mx-3 fa-brands fa-cc-diners-club"></i></div>              
+                                     
+                </div>
+
+            </div>
+           
+            <div style="display: flex;"></div></div>
+            
+          </div>
+
+            <div class="col-8 " ;>
+              <div class=" w-10 ms-5 p-2  " style="text-align:left  "> <label for="exampleFormControlMessage" class="form-label">Message</label>
+                <textarea class="form-control " id="exampleFormControlMessage"  rows="4" ></textarea></div>
+              
+             </div>
+                  <div class="p-6 mx-6 "  style=" margin: -7px;  object-position: -30px; font-size:x-small; "> <p>Add any notes here</p></div>
+             </div>
+
+          <!-- HEADER ABAJO -->
+          <div class="card text-bg-light mb-3" style="max-width: 150rem;">
+            <div class="card-body">
+
+              <div class="position-relative" >
+                <div class="position-absolute bottom-1 end-0" >
+                  <button type="button" class="btn btn-secondary btn-sm">Cancel</button>
+                   <button type="button" class="btn btn-primary btn-sm">Send</button> 
+                </div>
+              </div>  
+
+
+              <DIV class="p-3"></DIV>
+            </div>
+          </div>
+       
+      </div>
+      <!-- <div class="card-footer text-muted">
+        2 days ago
+      </div> -->
+    </div>
+ </div>
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
